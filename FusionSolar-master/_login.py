@@ -1,7 +1,7 @@
 import requests
 
-user = 'De_Haes_API'
-password = 'Sveasolar2023!'
+user = 'user'
+password = 'pasword!'
 
 session = requests.session()
 session.headers.update({'Connection': 'keep-alive', 'Content-Type': 'application/json'})
